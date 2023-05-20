@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Virtual Lab</title>
+	<link rel="stylesheet" href="hyst.css">
+</head>
+<body>
+	<header>
+        <h1>Virtual Lab IIITV-ICD</h1>
+        <nav>
+            <div class="navFlex">
+				<a href="./index.html">Home</a>
+				<a href="./about.html">About</a>
+            </div>
+		</nav>
+	</header>
+	
+	
+	<main>
+        <div class="material">
+            <div class="tt">
+                Select a Material
+            </div>
+
+            <div class="cont">
+                <button class="one card"  onclick="myf('mat1')"> Material 1</button>
+
+                <button class="two card" onclick="myf('mat2')">Material 2</button>
+
+                <button class="three card" onclick="myf('mat3')">Material 3</button>
+            </div>
+        </div>
+
+        <div class="hy">
+            <div class="graph"> <img  id='img' src="./hyst.jpeg" alt="plot"></div>
+            <div id="c"></div>
+           
+
+
+        </div>
+    </main>
+	
+    <footer>
+        <p>&copy; 2023 Virtual Lab</p>
+    </footer>
+
+
+      <script src="hyst.js"></script>
+
+</body>
+</html>

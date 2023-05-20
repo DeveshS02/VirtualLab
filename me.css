@@ -1,0 +1,180 @@
+
+/* Global styles */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	margin: 20px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+ol {
+	margin-left: 20px;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+/* AC control unit styles */
+
+#ac-control-unit {
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#ac-control-unit h2 {
+	color: #333;
+	margin-bottom: 20px;
+}
+
+#ac-control-unit label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#ac-control-unit input[type="range"] {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#ac-control-unit input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Faraday's experiment simulator styles */
+
+#faraday-simulator {
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#faraday-simulator h2 {
+	color: #333;
+	margin-bottom: 20px;
+}
+
+#faraday-simulator #magnet {
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	width: 80px;
+	height: 80px;
+	background-color: #333;
+	border-radius: 50%;
+	cursor: move;
+}
+
+#faraday-simulator #coil {
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #333;
+}
+
+#faraday-simulator #emf, #faraday-simulator #current {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#faraday-simulator input[type="button"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Hysteresis curve plotter styles */
+
+#hysteresis-plotter {
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#hysteresis-plotter h2 {
+	color: #333;
+	margin-bottom: 20px;
+}
+
+#hysteresis-plotter label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#hysteresis-plotter select {
+	margin-bottom: 10px;
+}
+
+#hysteresis-plotter canvas {
+	border: 1px solid #333;
+}
+
+#hysteresis-plotter input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Footer styles */
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align:
+    center;
+}
+
+footer p {
+margin: 0;
+}

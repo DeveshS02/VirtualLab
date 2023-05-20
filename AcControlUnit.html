@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Virtual Lab</title>
+	<link rel="stylesheet" href="acControlUnit.css">
+</head>
+<body>
+	<header>
+        <h1>Virtual Lab IIITV-ICD</h1>
+        <nav>
+            <div class="navFlex">
+				<a href="/index.html">Home</a>
+				<a href="/about.html">About</a>
+            </div>
+		</nav>
+	</header>
+	
+	<main>
+		<section class="hero">
+			<h1 class="whiteText hero-element">AC control unit</h1>
+			<br>
+			<lable class="whiteText">Enter Location :</lable>
+			<input id="cityName" placeholder="Eg. London" onchange="SetCityName(event)"></input>
+			<br>
+			<br>
+			<lable class="whiteText">Enter time in Hrs :</lable>
+			<input id="timeInput" placeholder="1-24" onchange="SetTime(event)"></input>
+			<br>
+			<br>
+			<lable class="whiteText">Enter day of the week:</lable>
+			<input id="dayInput" placeholder="Day of the week" onchange="SetDayOfWeek(event)"></input>
+			<br>
+			<br>
+			<button onclick="handleClick()">Submit</button>
+		</section>
+		
+		<div class="appContainer">
+			<div class="appElement">
+			</div>
+		</div>
+		<div id="acStatus"></div>
+	</main>
+	<div class="ac-blows-air"></div>
+	<div class="result">
+		<div class="result-element">Location: <span id="location"></span></div>
+		<div class="result-element">Temperature: <span id="temperature"></span></div>
+		<div class="result-element">Humidity: <span id="humidity"></span></div>
+		<div class="result-element">Time in Hrs: <span id="time"></span></div>
+		<div class="result-element">Day Of The Week: <span id="dayOfWeek"></span></div>
+	</div>
+
+    <footer>
+        <p>&copy; 2023 Virtual Lab</p>
+    </footer>
+	<script src="AcControlUnit.js"></script>
+</body>
+
+</html>
